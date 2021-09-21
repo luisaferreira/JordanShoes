@@ -1,0 +1,98 @@
+body {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    background-color: var(--bgSite);
+}
+
+.header-footer-texto {
+    background-color: var(--title);
+    color: var(--bgSite);
+
+    text-align: center;
+
+    padding: .5rem;
+}
+
+.header-nome-loja {
+    color: var(--title);
+
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    padding: .8rem;
+
+}
+
+.header-card {
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 370px;
+
+    box-sizing: border-box;
+    padding: 6rem;
+}
+
+.header-titulo {
+    color: var(--bgSite);
+
+    font-size: 32px;
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+}
+
+.header-texto {
+    color: var(--bgSite);
+
+    font-size: 18px;
+    line-height: 35px;
+
+    width: 35%;
+}
+
+.main-container {
+    text-align: center;
+
+    margin-bottom: 5rem;
+}
+
+.main-titulo {
+    font-size: 32px;
+    font-weight: 600;
+
+    color: var(--title);
+
+    margin-top: 5rem;
+}
+
+.main-texto {
+    font-size: 18px;
+
+    color: var(--text);
+
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.main-container-produto {
+    background-color: var(--bgCard);
+
+    width: 24%;
+    margin-bottom: 2rem;
+
+    padding: 3rem 0;
+
+}
+
+.main-container-produto a {
+    height: 100%;
+}
+
+.main-produto {
+    width: 90%;
+}
